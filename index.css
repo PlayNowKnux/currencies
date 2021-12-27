@@ -1,0 +1,53 @@
+.currencyUnit {
+    border-style: double;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    max-width: 33%;
+    z-index: 0;
+}
+.center {
+    text-align: center;
+}
+
+div.center {
+    margin: 0 auto;
+}
+
+.inputbox {
+    margin: 0 auto;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.man {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    display: inline-flex;
+    cursor: pointer;
+}
+
+/*https://www.w3resource.com/html-css-exercise/speech-bubble-answer.php*/
+
+#speech-bubble {
+    width: 300px; 
+    height: 80px; 
+    background: #5ac4ed;
+    position: absolute;
+    left:100px;
+    -moz-border-radius: 10px; 
+    -webkit-border-radius: 10px; 
+    border-radius: 10px;
+    padding: 10px;
+ }
+ #speech-bubble:before {
+    content:"";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 26px solid #5ac4ed;
+    border-bottom: 13px solid transparent;
+    margin: 13px 0 0 -25px;
+ }
