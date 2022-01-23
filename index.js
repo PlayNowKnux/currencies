@@ -14,7 +14,8 @@ const currencies = {
     "osu! Performance Points": 71.72,
     "Chucky Coins": (1/500),
     "Freddy Points": 1.29,
-    "Disney Ticket": 76
+    "Disney Ticket": 76,
+    "Cement Coin": 0.23
 
 }
 
