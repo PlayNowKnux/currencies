@@ -16,7 +16,7 @@ const currencies = {
     "Freddy Points": 1.29,
     "Disney Ticket": 76,
     "Cement Coin": 0.23,
-    "\"Zerifunds\"": 2000
+    "Zerifunds": 2000
 
 }
 
